@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faded - Alan Walker</title>
+
+    <style>
+        body {
+            margin: 0%;
+            color: white;
+        }
+        
+        .section-top {
+            background-color: black;
+            padding: 10px;
+        }
+
+        .search {
+            width: 17%;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+        }
+
+        table {
+            background-color: black;
+            width: 25%;
+            height: 584px;
+            text-align: center;
+            font-size: x-large;
+            float: left;
+        }
+
+        p:hover {
+            text-shadow: 0px 0px 25px white;
+        }
+        
+        .main {
+            background-image: url("bgimg.jfif");
+            width: 75%;
+            height: 584px;
+            float: left;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        img {
+            height: 400px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="section-top">
+        <input type="text" placeholder="Search song" class="search">
+        <button type="button">Search</button>
+    </div>
+
+    <div class="nav">
+        <table>
+            <a href="Home.html" class="nav-link">
+                <tr>
+                    <td><a href="Home.html" class="nav-link"><p><strong>Home</strong></p></a></td>
+                </tr>
+            </a>
+    
+            <a href="playlist.html" class="nav-link">
+                <tr>
+                    <td><a href="playlist.html" class="nav-link"><p><strong>Playlist</strong></p></a></td>
+                </tr>
+            </a>
+    
+            <a href="trending.html" class="nav-link">
+                <tr>
+                    <td><a href="trending.html" class="nav-link"><p><strong>Trending</strong></p></a></td>
+                </tr>
+            </a>
+                
+            <a href="favorite.html" class="nav-link">
+                <tr>
+                    <td><a href="favorite.html" class="nav-link"><p><strong>Favorite</strong></p></td>
+                </tr>
+            </a>
+        </table>
+    </div>
+    
+    <div class="main">
+        <div class="heading" align="center">
+            <h1>Faded</h1>
+            <h3>By Alan Walker</h3>
+            <div class="mbox">
+                <img src="fadedimg.jpg" alt="fadedimg">
+                <br>
+                <audio controls>
+                    <source src="Alan-Walker-Faded.mp3" type="audio/mpeg">
+                </audio>                  
+            </div>
+        </div>
+    </div>
+</body>
+</html>
